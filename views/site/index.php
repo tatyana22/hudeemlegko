@@ -118,16 +118,16 @@ use app\models\Article;
                                     <ul class="info">
                                         <li class="avatar">
 
-                                            <a href="<?= \yii\helpers\Url::to(['category/view', 'id' => $article->category->id]); ?>"><?= Html::img($catImg->getUrl(), ['class' => "topic-avatar", 'alt' => $article->title, 'title' => $article->title]);?></a>
+                                            <a href="<?= \yii\helpers\Url::to(['category/view', 'id' => $article->category->id]); ?>"><?= Html::img($catImg->getUrl(), ['class' => "topic-avatar", 'alt' => $article->title, 'title' => $article->title]); ?></a>
                                         </li>
 
                                         <li class="blog">
                                             <a href="<?= \yii\helpers\Url::to(['category/view', 'id' => $article->category->id]); ?>"><?= $article->category['name']; ?></a>
                                             <br>
-                                            <?php echo $article->date?>
+                                            <?php echo $article->date ?>
                                         </li>																
                                     </ul>
-                                    <span class="articles-comments"><i class="glyphicon glyphicon-eye-open" aria-hidden="true"></i><a href="<?= \yii\helpers\Url::to(['article/view', 'id' => $article->id]) ?>"><?= $article->view ;?></a></span>
+                                    <span class="articles-comments"><i class="glyphicon glyphicon-eye-open" aria-hidden="true"></i><a href="<?= \yii\helpers\Url::to(['article/view', 'id' => $article->id]) ?>"><?= $article->view; ?></a></span>
 
                                 </div>
                             </div>
@@ -164,16 +164,16 @@ use app\models\Article;
                                     <ul class="info">
                                         <li class="avatar">
 
-                                            <a href="<?= \yii\helpers\Url::to(['category/view', 'id' => $article->category->id]); ?>"><?= Html::img($catImg->getUrl(), ['class' => "topic-avatar", 'alt' => $article->title, 'title' => $article->title]);?></a>
+                                            <a href="<?= \yii\helpers\Url::to(['category/view', 'id' => $article->category->id]); ?>"><?= Html::img($catImg->getUrl(), ['class' => "topic-avatar", 'alt' => $article->title, 'title' => $article->title]); ?></a>
                                         </li>
 
                                         <li class="blog">
                                             <a href="<?= \yii\helpers\Url::to(['category/view', 'id' => $article->category->id]); ?>"><?= $article->category['name']; ?></a>
                                             <br>
-                                            <?php echo $article->date?>
+                                            <?php echo $article->date ?>
                                         </li>																
                                     </ul>
-                                    <span class="articles-comments"><i class="glyphicon glyphicon-eye-open" aria-hidden="true"></i><a href="<?= \yii\helpers\Url::to(['article/view', 'id' => $article->id]) ?>"><?= $article->view ;?></a></span>
+                                    <span class="articles-comments"><i class="glyphicon glyphicon-eye-open" aria-hidden="true"></i><a href="<?= \yii\helpers\Url::to(['article/view', 'id' => $article->id]) ?>"><?= $article->view; ?></a></span>
                                 </div>
                             </div>
                         <?php endforeach; ?>

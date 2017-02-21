@@ -148,9 +148,9 @@ use app\models\Article;
                             $catImg = $article->category->getImage();
                             ?>
 <<<<<<< HEAD
+                        мастер тест 
                             hello
 =======
-                        мастер
 >>>>>>> master
                             <div class="col-sm-6">
                                 <div class="articles">

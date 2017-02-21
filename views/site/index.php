@@ -163,10 +163,8 @@ use app\models\Article;
                                     <hr noshade>
                                     <ul class="info">
                                         <li class="avatar">
-
                                             <a href="<?= \yii\helpers\Url::to(['category/view', 'id' => $article->category->id]); ?>"><?= Html::img($catImg->getUrl(), ['class' => "topic-avatar", 'alt' => $article->title, 'title' => $article->title]); ?></a>
                                         </li>
-
                                         <li class="blog">
                                             <a href="<?= \yii\helpers\Url::to(['category/view', 'id' => $article->category->id]); ?>"><?= $article->category['name']; ?></a>
                                             <br>

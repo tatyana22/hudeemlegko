@@ -140,6 +140,7 @@ use app\models\Article;
                     <div class="features_items"><!--features_articles-->
                         <?php /* debug($articles); */ ?>
                         <h2 class="title text-center">Популярные статьи</h2>
+                        
                         <?php foreach ($articlesHit as $article): ?>
                             <?php
                             $mainImg = $article->getImage();

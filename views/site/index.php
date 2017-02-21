@@ -139,7 +139,6 @@ use app\models\Article;
                 <?php if (!empty($articlesHit)): ?>
                     <div class="features_items"><!--features_articles-->
                         <?php /* debug($articles); */ ?>
-
                         <h2 class="title text-center">Популярные статьи</h2>
                         <?php foreach ($articlesHit as $article): ?>
                             <?php

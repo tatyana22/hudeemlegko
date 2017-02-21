@@ -142,11 +142,7 @@ use app\models\Article;
                         <h2 class="title text-center">Популярные статьи</h2>
                         
                         <?php foreach ($articlesHit as $article): ?>
-                            <?php
-                            $mainImg = $article->getImage();
-                            $gallery = $article->getImages();
-                            $catImg = $article->category->getImage();
-                            ?>
+                            
                             <div class="col-sm-6">
                                 <div class="articles">
                                     <div class="articles-gen-img">

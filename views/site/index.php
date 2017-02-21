@@ -147,7 +147,7 @@ use app\models\Article;
                             $gallery = $article->getImages();
                             $catImg = $article->category->getImage();
                             ?>
-                        мастер
+                        мастер тест 
                             <div class="col-sm-6">
                                 <div class="articles">
                                     <div class="articles-gen-img">

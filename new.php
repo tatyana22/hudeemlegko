@@ -1,5 +1,0 @@
-<?php
-
-publick $new;
-
-?>
